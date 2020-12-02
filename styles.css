@@ -1,13 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  color: fffbf7;
+  color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
+  text-align: center;
   color: #025157;
+  font-family: 'Alegreya', serif;
+  font-size: 60px;
+  font-weight: 900;
 }
 
 h4 {
+  text-align: center;
   color: #46484c;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 70%;
+  vertical-align: center;;
 }
 
 button {
@@ -29,4 +50,63 @@ input {
 
 form {
   text-align: center;
+}
+
+.header {
+  margin: 40px 20px 150px 20px;
+  font-size: 0;
+  text-align: center;
+  height: 45px;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+.menu-item {
+  display: inline;
+  margin: 0 25px;
+}
+
+.logo {
+  width: 20%;
+  height: 100%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 20%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions > * {
+   margin: 0 10px;
+}
+
+.actions > a {
+  color: #67b54b;
+}
+
+.actions > button {
+  color: #fff;
+  background-color: #67b567;
+  padding: 12px 14px;
+  border-radius: 5px;
+  font-weight: 600;
 }
